@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f38150-6e78-469e-b732-b7009b943b01" name="Default" comment="Adding sql script into repository.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sql/swiftmailer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model.php" afterPath="$PROJECT_DIR$/src/model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="swiftmailer.iws" />
@@ -311,7 +309,19 @@
       <option name="project" value="LOCAL" />
       <updated>1453443898183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Php storm setting.">
+      <created>1453444763062</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1453444763062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding sql script into repository.">
+      <created>1453444779288</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1453444779288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,10 +364,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding version control into this project." />
+    <MESSAGE value="Php storm setting." />
     <MESSAGE value="Adding sql script into repository." />
     <option name="LAST_COMMIT_MESSAGE" value="Adding sql script into repository." />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
