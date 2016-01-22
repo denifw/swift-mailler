@@ -1,0 +1,19 @@
+create database swiftmailer;
+use database swiftmailer;
+
+create table smtpmail(
+  id int not null AUTO_INCREMENT PRIMARY KEY,
+  host VARCHAR(128),
+  port int,
+  security VARCHAR(20),
+  username VARCHAR(256),
+  password VARCHAR(256)
+);
+
+create table documents(
+  id int not NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(128),
+  type VARCHAR(128),
+  size VARCHAR(128),
+  file longblob
+);

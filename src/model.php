@@ -147,7 +147,7 @@ function doInsertSmtp($username, $password, $host, $port, $security) {
 function openDatabaseConnection()
 {
     # Create variable for database connection.
-    $conDatabase = mysqli_connect('localhost', 'root', 'asd!jkl123');
+    $conDatabase = mysqli_connect('localhost', '', '');
     # Select database name.
     mysqli_select_db($conDatabase, 'swiftmailer');
     # Set connection as return value.
